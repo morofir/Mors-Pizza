@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+          >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/pizza"
+                    android:layout_margin="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:cropToPadding="false"
+                    android:src="@drawable/pizzaicon"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/res_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/Restaurant"
+                        android:layout_weight="1"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:text="@string/ty_order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/deliveryCharge"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@color/colorAccent"
+            android:id="@+id/imageView4"
+            android:scaleType="fitCenter"
+            android:layout_height="3dp" />
+
+        <TextView
+            android:text="@string/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:text="@string/name"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:id="@+id/textView14"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:layout_width="150dp"
+                android:layout_margin="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingTop="0dp"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name_et"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:layout_height="30dp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:text="Address: "
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:id="@+id/textView15"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:id="@+id/address"-->
+<!--                android:textColor="@android:color/background_dark"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:textAlignment="center"-->
+<!--                android:layout_weight="1" />-->
+            <EditText
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/address_et"
+                android:padding="0dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:layout_height="30dp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:text="Phone: "
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:id="@+id/textView16"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_dark" />
+
+            <EditText
+                android:background="@android:color/transparent"
+                android:maxLength="19"
+                android:layout_width="363dp"
+                android:ems="10"
+                android:id="@+id/phone_et"
+                android:textSize="14sp"
+                android:padding="0dp"
+                android:layout_height="30dp"
+                android:singleLine="true"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@color/colorAccent"
+            android:id="@+id/imageView5"
+            android:layout_height="3dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num_drinks"
+            android:textSize="17dp"
+            android:id="@+id/numdrinks_et"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/drinks_number"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok_btn"
+            android:id="@+id/ok_btn"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none"
+            android:layout_marginHorizontal="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/spinners_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sumTextView"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@color/colorAccent"
+            android:id="@+id/imageView6"
+            android:layout_height="3dp" />
+
+
+
+        <TextView
+            android:text="@string/order_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="22sp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <TextView
+            android:id="@+id/Order_details"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.84"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:text="Total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:text="@string/Place_Order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/place_order" />
+
+    </LinearLayout>
+    </RelativeLayout>
+
+

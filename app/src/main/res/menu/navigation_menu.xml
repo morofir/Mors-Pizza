@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_menu"
+        android:title="Our Menu"
+        android:icon="@drawable/ic_baseline_storefront_24">
+    </item>
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us">
+    </item>
+    <item
+        android:id="@+id/nav_special"
+        android:title="Specials Menu">
+    </item>
+
+</menu>

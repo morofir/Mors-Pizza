@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".GalleryActivity">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:id="@+id/greek_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="320dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/greekpizza" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/greekdes"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/greek_pic"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@null"
+                android:text="@string/ordernow_btn"
+                android:id="@+id/order_btn1"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:src="@drawable/margarita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/margarita_pic"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/margaritades"
+                android:textSize="30sp"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true" />
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ordernow_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/margarita_pic"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:id="@+id/order_btn2"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:src="@drawable/fungipizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fungi_pic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fungides"
+                android:textSize="30sp"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true" />
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ordernow_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fungi_pic"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:id="@+id/order_btn3"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:src="@drawable/peperonipizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/peperoni_pic"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/peperonides"
+                android:textSize="30sp"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true" />
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ordernow_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/peperoni_pic"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:id="@+id/order_btn4"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:src="@drawable/marinerapizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/marinera_pic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/marinerades"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true" />
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ordernow_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/marinera_pic"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:id="@+id/order_btn5"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                android:src="@drawable/vegipizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vegi_pic"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/vegides"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true" />
+            <android.widget.Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ordernow_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/vegi_pic"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:id="@+id/order_btn6"
+                />
+        </RelativeLayout>
+    </ViewFlipper>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prev"
+        android:onClick="previousView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:alpha="0.8"
+        app:shapeAppearanceOverlay="@style/leaf" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:onClick="NextView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:alpha="0.8"
+        app:shapeAppearanceOverlay="@style/leaf" />
+</RelativeLayout>

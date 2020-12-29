@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mor\'s Pizzas</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="about_text">Mor\'s Pizza is the largest pizzeria chain in Israel and has 92 branches throughout the country from Kiryat Shmona to Eilat.
+        The dairy chain and most of the branches are kosher with elegant kosher.  The "Pan" pizza - our flagship pizza, is a pizza made of thick and airy
+        dough that came to us from the US and today its favorite taste is known in every home in Israel. The chain sells a wide variety of special pizzas
+        such as the classic thin dough pizza Thin, garnished with cream cheese balls on the edges.  Apart from our delicious pizzas, the menu is varied with
+        other wonderful dishes such as fresh pastas in various sauces, fresh salads, quiches, focaccia and of course desserts. The Mor\'s Pizza chain in Israel
+        is owned by Tabasco Holdings Ltd.
+
+    </string>
+    <string name="our_menu">Our Menu</string>
+    <string name="chooseSize">Choose size:</string>
+    <string name="small">Small (5$)</string>
+    <string name="medium">Medium (10$)</string>
+    <string name="large">Large (15$)</string>
+    <string name="Onions">Onions</string>
+    <string name="Tomato">Tomato</string>
+    <string name="Peppers">Peppers</string>
+    <string name="Mushrooms">Mushrooms</string>
+    <string name="Cheese">Cheese</string>
+    <string name="pineapple">Pineapple (1$)</string>
+    <string name="bulgarian">Feta(1$)</string>
+    <string name="olives">Olives (1$)</string>
+    <string name="anchovies">Anchovies (1$)</string>
+    <string name="corn">Corn (1$)</string>
+    <string name="add">Add to cart</string>
+    <string name="cancel">Cancel</string>
+    <string name="totalAmount">"Your total amount is: "</string>
+    <string name="welcome">Welcome to Mors pizzas!</string>
+    <string name="gallery">Gallery of our pizzas</string>
+    <string name="gallery_btn">Gallery</string>
+    <string name="prev">Previous</string>
+    <string name="next">Next</string>
+    <string name="greekdes">Greek Pizza (17$)</string>
+    <string name="margaritades">Margherita Pizza(15$)</string>
+    <string name="fungides">Funghi Pizza (15$)</string>
+    <string name="peperonides">Pepperoni Pizza (19$)</string>
+    <string name="marinerades">Marinera Pizza (16$)</string>
+    <string name="vegides">Vegan Pizza (15$)</string>
+    <string name="buy_now_btn">Order Now</string>
+    <string name="ordernow_btn">Order Now</string>
+    <string name="specials">Our Specials:</string>
+    <string name="specials_menu">Our Specials Menu</string>
+    <string name="menu">Menu</string>
+    <string name="menu_down">Enjoy our delicious Pizzas</string>
+    <string name="special_down">Specially prepared Pizzas</string>
+    <string name="call_us">Call Us</string>
+    <string name="order_detail">Order Details:</string>
+    <string name="fill_details">Please fill the details below:</string>
+    <string name="res_details">Mor׳s Pizza</string>
+    <array name="drinks_array">
+        <item>Cola</item>
+        <item>Sprite</item>
+        <item>Beer</item>
+        <item>Water</item>
+        <item>Orange Juice</item>
+    </array>
+    <string name="ty_order">Thank you for your order!</string>
+    <string name="address">Address:</string>
+    <string name="name">"Name:"</string>
+    <string name="phone_num">"Phone Number: "</string>
+    <string name="info">Personal Information</string>
+    <string name="Place_Order">Place Order</string>
+    <string name="num_drinks">Number of drinks?</string>
+    <string name="ok_btn">Ok</string>
+    <string name="nodrinks_toast">You have not selected!</string>
+    <string name="choose">Please Choose</string>
+    <string name="drinks">Drinks</string>
+    <string name="show">Show</string>
+
+
+</resources>
